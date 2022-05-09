@@ -75,7 +75,7 @@ class PandacoinMainnet(AbstractNet):
     WIF_PREFIX = 0xB7
     ADDRTYPE_P2PKH = 55
     ADDRTYPE_P2SH = 22
-    SEGWIT_HRP = "pnd"
+    SEGWIT_HRP = "pn"
     BOLT11_HRP = SEGWIT_HRP
     GENESIS = "000000003fa90365cae3b93740a5a08810a42dd122f87383afd45655a0101224"
     DEFAULT_PORTS = {'t': '50001', 's': '50002'}
